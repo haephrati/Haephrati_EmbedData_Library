@@ -7,3 +7,7 @@ That is usually impossible since a program that uses such Static library will us
 I posted a question (which I answered after finding this solution). 
 I realized that this solution deserves an article with source code. 
 I have also posted a question about that possibility in Stack Overflow.
+
+## Unit tests
+
+`Tests/EmbedDataLibTests` checks the embedded ICO directory in `iconStaticData.h` (reserved bytes, type, image count, and first icon size). Build Release|x64.
